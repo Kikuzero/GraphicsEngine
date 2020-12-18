@@ -22,7 +22,9 @@ namespace GraphicsEngine
     {
     public:
         Quadrangle(float, float, GLfloat[]);
+        Quadrangle(float, float, GLfloat[], GLfloat[]);
         Quadrangle(std::string, float, float, GLfloat[]);
+        Quadrangle(std::string, float, float, GLfloat[], GLfloat[]);
         Quadrangle(float, float, float, float);
 
     private:

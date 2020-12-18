@@ -31,7 +31,11 @@ namespace GraphicsEngine
         void Draw();
 
         void AddObjectToPool(IDrawable*);
+        void DeleteObjectFromPool(); //TODO!
         //void AddObjectToPool(ViewObject*);
+
+        inline int GetWidth() { return  m_Width; }
+        inline int GetHeight() { return  m_Height; }
 
     private:
         GLFWwindow *window;

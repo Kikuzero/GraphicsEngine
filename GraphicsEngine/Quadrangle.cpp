@@ -8,10 +8,24 @@ namespace GraphicsEngine
         m_VertexBufferData = _vp;
     }
 
+    Quadrangle::Quadrangle(float _x, float _y, float _vp[], float _tp[]) : ViewObject()
+    {
+        Init(_x, _y);
+        m_VertexBufferData = _vp;
+        m_TextureCoords = _tp;
+    }
+	
     Quadrangle::Quadrangle(std::string _path, float _x, float _y, float _vp[]) : ViewObject(_path)
     {
         Init(_x, _y);
         m_VertexBufferData = _vp;
+    }
+
+    Quadrangle::Quadrangle(std::string _path, float _x, float _y, GLfloat _vp[], GLfloat _tp[]) : ViewObject(_path)
+    {
+        Init(_x, _y);
+        m_VertexBufferData = _vp;
+        m_TextureCoords = _tp;
     }
 
     Quadrangle::Quadrangle(float _x, float _y, float _w, float _h) : ViewObject()

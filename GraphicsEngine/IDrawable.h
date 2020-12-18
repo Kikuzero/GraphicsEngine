@@ -1,9 +1,11 @@
 #pragma once
-class IDrawable
+namespace GraphicsEngine
 {
-public:
-	virtual void draw() = 0;
-	virtual void bind(int, int) = 0;
-	/*virtual void setScreenPosition(int, int) = 0;*/
-};
-
+	class IDrawable
+	{
+	public:
+		virtual void draw() = 0;
+		virtual void bind(int, int) = 0;
+		/*virtual void setScreenPosition(int, int) = 0;*/
+	};
+}

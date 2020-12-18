@@ -7,7 +7,7 @@ namespace GraphicsEngine
 	class Sprite : public Quadrangle
 	{
 	public:
-		Sprite(std::string, float, float, float[]);
+		Sprite(std::string, float, float, float[], float[]);
 	};
 }
 

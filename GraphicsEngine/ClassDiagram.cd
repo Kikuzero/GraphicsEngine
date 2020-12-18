@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Animation" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAACAAIgAIAAAEgAAAEAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Animation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDrawable" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDrawable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAiAAAAAAAgAABAAABgABAQAAAAACAABIFAEAAAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsEngine::Circle" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Circle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsEngine::IndexBuffer" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAiAAAAAAAAAAAAAAAEAABAAAAAAAAAAAEAAQAAAA=</HashCode>
+      <FileName>IndexBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsEngine::IRenderer" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsEngine::Quadrangle" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAA=</HashCode>
+      <FileName>Quadrangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsEngine::Renderer" Collapsed="true">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Renderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsEngine::Shader" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIEAiEAAAIAgAAAAAABACAAAAAAAAAAQBBAUQgAQAIA=</HashCode>
+      <FileName>Shader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsEngine::Sprite" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsEngine::Triangle" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Triangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsEngine::VertexBufferLayout" Collapsed="true">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAiAAAAAAAAAAAAAAAQAAAAABAAAAAAAAAAAACAI=</HashCode>
+      <FileName>VertexBufferLayout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsEngine::VertexArray" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgiAAAAAAAAAAAAAAAAAAAAAAAAAAAACAEAEAAAAA=</HashCode>
+      <FileName>VertexArray.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsEngine::VertexBuffer" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAA=</HashCode>
+      <FileName>VertexBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsEngine::Viewer" Collapsed="true">
+    <Position X="14.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAIAgABAQAAAAAYAAAAgACIAAAAAABAAgA=</HashCode>
+      <FileName>Viewer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsEngine::ViewObject" Collapsed="true">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAIQAAhKAKECBIAAIwQAAKCSAAAQECAAAwAAxYgAA=</HashCode>
+      <FileName>ViewObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="GraphicsEngine::Point" Collapsed="true">
+    <Position X="17" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAQAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Point.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GraphicsEngine::ShaderProgramSource" Collapsed="true">
+    <Position X="18.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAABA=</HashCode>
+      <FileName>Shader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GraphicsEngine::VertexBufferElement" Collapsed="true">
+    <Position X="20.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAABAAAAAAAAAABAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>VertexBufferLayout.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="GraphicsEngine::Types" Collapsed="true">
+    <Position X="17" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAEAAAAAAAAAAAAAAAAAAAAACAAAAgAAAAAAA=</HashCode>
+      <FileName>Types.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

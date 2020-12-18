@@ -80,6 +80,7 @@ namespace GraphicsEngine
         for (auto obj : *m_ObjectsVect)
         {
 			//obj->setRotation(a, glm::vec3(0.f, 0.f, 1.f));
+        	
             obj->bind(m_Width, m_Height);
             //obj->setScreenPosition(m_Width, m_Height);
             obj->draw();

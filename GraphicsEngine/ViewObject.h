@@ -8,7 +8,6 @@
 
 #include "VertexBuffer.h"
 #include "IndexBuffer.h"
-#include "IViewObject.h"
 #include "VertexArray.h"
 #include "VertexBufferLayout.h"
 #include "Texture.h"
@@ -59,13 +58,13 @@ namespace GraphicsEngine {
         GLfloat* m_TextureCoords;
     	unsigned int *m_Indeces;
 
-        Renderer renderer;
+        Renderer renderer; //TODO: Переименовать
         VertexArray *m_VA;
         VertexBuffer *m_VB_c;
         VertexBuffer *m_VB_tc;
         IndexBuffer *m_IB;
         VertexBufferLayout *m_Layout_c;
-        VertexBufferLayout *m_Layout_tc;
+        VertexBufferLayout *m_Layout_tc; //TODO: удалить ненужное
 
         Texture* m_Texture;
 
@@ -75,5 +74,6 @@ namespace GraphicsEngine {
         glm::mat4 m_MVP;
     	
         void zip();
+        GLfloat* createVertTexPos();
     };
 }

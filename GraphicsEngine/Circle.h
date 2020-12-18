@@ -27,5 +27,8 @@ namespace GraphicsEngine
     {
     public:
         Circle(GLfloat, GLfloat, GLfloat, GLfloat);
+    private:
+        void CreateVertexBuffer(GLfloat, GLfloat, GLfloat, unsigned int);
+        void CreateIndexBuffer(unsigned int);
     };
 }
