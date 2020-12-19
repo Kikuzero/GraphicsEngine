@@ -35,9 +35,15 @@ namespace GraphicsEngine {
 
         void setRotation(float, glm::vec3);
 
+        inline float GetRotation() { return m_Angle; }
+    	
         void setPosition(glm::vec3);
 
+        inline glm::vec3 GetPosition() { return m_Position; }
+    	
         void setScale(glm::vec3);
+
+        inline Types GetType() { return m_Type; }
     	
         void bind(int, int) override;
     	

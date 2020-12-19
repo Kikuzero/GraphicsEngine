@@ -1,5 +1,6 @@
 #include "Viewer.h"
 
+
 namespace GraphicsEngine
 {
     Viewer::Viewer(int _width, int _height)
@@ -17,7 +18,7 @@ namespace GraphicsEngine
     {
         if (!glfwInit())
         {
-            fprintf(stderr, "Failed to initialize GLFW\n");
+            fprintf(stderr, "Failed to initialize GLFW\n");       	
             getchar();
             return -1;
         }

@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{C043C118-0029-4913-BF36-C972B762BBE5}</ProjectGuid>
+    <ProjectGuid>{59C4148B-C0AB-42F2-B3C4-EDE5BE601ABC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>GraphicsEngineTests</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
@@ -92,15 +92,15 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\GraphicsEngine\addInc;..\Deps\GLFW\include;..\Deps\GLEW\include;$(VCInstallDir)UnitTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../GraphicsEngine/addInc;$(VCInstallDir)UnitTest\include;../Deps/GLFW/Include;../Deps/GLEW/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>STB_IMAGE_IMPLEMENTATION;GLEW_STATIC;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <UseFullPaths>true</UseFullPaths>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <AdditionalLibraryDirectories>..\Deps\GLEW\lib\Release\Win32;..\GraphicsEngine\Debug;..\Deps\GLFW\lib-vc2019;$(VCInstallDir)UnitTest\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>glew32s.lib;glfw3.lib;opengl32.lib;User32.lib;Gdi32.lib;Shell32.lib;Viewer.obj;Texture.obj;Animation.obj;Shader.obj;IDrawable.obj;Sprite.obj;IndexBuffer.obj;Renderer.obj;VertexArray.obj;VertexBuffer.obj;ViewObject.obj;Quadrangle.obj;Triangle.obj;Circle.obj;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Deps\GLEW\lib\Release\Win32;..\Deps\GLFW\lib-vc2019;..\GraphicsEngine\Debug;$(VCInstallDir)UnitTest\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Viewer.obj;ViewObject.obj;Animation.obj;Circle.obj;Triangle.obj;Quadrangle.obj;IndexBuffer.obj;VertexBuffer.obj;VertexArray.obj;Texture.obj;Sprite.obj;Shader.obj;Renderer.obj;glew32s.lib;glfw3.lib;opengl32.lib;User32.lib;Gdi32.lib;Shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

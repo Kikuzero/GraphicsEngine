@@ -27,7 +27,10 @@ namespace GraphicsEngine
     {
     public:
         Circle(GLfloat, GLfloat, GLfloat, GLfloat);
+        inline int GetRadius() { return m_Radius; }
     private:
+        int m_Radius;
+    	
         void CreateVertexBuffer(GLfloat, GLfloat, GLfloat, unsigned int);
         void CreateIndexBuffer(unsigned int);
     };

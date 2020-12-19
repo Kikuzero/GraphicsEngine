@@ -30,6 +30,7 @@ namespace GraphicsEngine
         void Clear();
         void Draw();
 
+        inline std::vector<IDrawable*>* GetPool(){ return m_ObjectsVect; }
         void AddObjectToPool(IDrawable*);
         void DeleteObjectFromPool(); //TODO!
         //void AddObjectToPool(ViewObject*);

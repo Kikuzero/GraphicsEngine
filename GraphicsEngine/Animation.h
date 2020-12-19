@@ -17,7 +17,8 @@ namespace GraphicsEngine
 		void bind(int, int) override;
 		void animate(int);
 		void draw() override;
-
+		
+		std::vector<std::string> GetPaths() { return m_Paths; }
 	private:
 		std::vector<std::string> m_Paths;
 		//std::vector<Texture*> textures;

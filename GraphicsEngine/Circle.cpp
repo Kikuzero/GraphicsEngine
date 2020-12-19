@@ -7,6 +7,8 @@ namespace GraphicsEngine
 
         m_Dem = 3;
 
+        m_Radius = _radius;
+    	
         unsigned int numberOfSides = 128;
 
         //CreateVertexBuffer(_x, _y, _radius, numberOfSides);
@@ -26,8 +28,8 @@ namespace GraphicsEngine
 
         for (int i = 1; i < fNumVer - 1; i++)
         {
-            circleVerticesX[i] = _x + (_radius * cos((i + 1) * doublePi / numberOfSides));
-            circleVerticesY[i] = _y + (_radius * sin((i + 1) * doublePi / numberOfSides));
+            circleVerticesX[i] = _x + (m_Radius * cos((i + 1) * doublePi / numberOfSides));
+            circleVerticesY[i] = _y + (m_Radius * sin((i + 1) * doublePi / numberOfSides));
             circleVerticesZ[i] = 0;
         }
 
